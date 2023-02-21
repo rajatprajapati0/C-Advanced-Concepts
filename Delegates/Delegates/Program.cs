@@ -3,11 +3,12 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace Delegates
 {
-    public delegate void math(int a, int b); 
+    public delegate void math(int a, int b);  
 
 
     public class Program
     {
+        
         public static void Main(string[] args)
         {
             while(true)
