@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Delegates
 {
 
-    class delegates
+    class for_delegates
     {
         internal static void  add(int a, int b) 
         {

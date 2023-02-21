@@ -3,7 +3,7 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace Delegates
 {
-    public delegate void math(int a, int b);
+    public delegate void math(int a, int b); 
 
 
     public class Program
@@ -24,24 +24,24 @@ namespace Delegates
                 switch (check)
                 {
                     case '+':
-                        math obj = new math(delegates.add);
+                        math obj = new math(for_delegates.add);
                         obj.Invoke(a, b);
 
                         break;
 
                     case '-':
-                        obj = new math(delegates.substraction);
+                        obj = new math(for_delegates.substraction);
                         obj.Invoke(a, b);
                         break;
 
                     case '*':
-                        obj = new math(delegates.multiplication);
+                        obj = new math(for_delegates.multiplication);
                         obj.Invoke(a, b);
 
                         break;
 
                     case '/':
-                        obj = new math(delegates.division);
+                        obj = new math(for_delegates.division);
                         obj.Invoke(a, b);
                     
                         break;
